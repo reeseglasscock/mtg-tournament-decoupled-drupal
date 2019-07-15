@@ -7,7 +7,7 @@ vagrant_hostname: local.decoupled-drupal.com
 vagrant_machine_name: decoupled-drupal
 
 # Set the IP address so it doesn't conflict with other Drupal VM instances.
-vagrant_ip: 192.168.189.85
+vagrant_ip: 192.168.175.85
 
 # Use Ubuntu 16.04 LTS to match Acquia Cloud environments.
 vagrant_box: geerlingguy/drupal-vm

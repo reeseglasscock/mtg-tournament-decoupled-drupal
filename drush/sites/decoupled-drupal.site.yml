@@ -1,6 +1,6 @@
 local:
     root: /var/www/decoupled-drupal/docroot
-    uri: 'http://local.decoupled-drupal.com'
+    uri: local.decoupled-drupal.com
     host: local.decoupled-drupal.com
     user: vagrant
     ssh: { options: '-o StrictHostKeyChecking=no -o PasswordAuthentication=no -i $HOME/.vagrant.d/insecure_private_key' }
