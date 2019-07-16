@@ -11,7 +11,8 @@ project:
 git:
   default_branch: master
   remotes:
-    eerglasscock@svn-29892.prod.hosting.acquia.com: eerglasscock.git
+    cloud: 'eerglasscock@svn-29892.prod.hosting.acquia.com:eerglasscock.git'
+  email: 'reese.glasscock@acquia.com'
 deploy:
   tag_source: true
 drush:
