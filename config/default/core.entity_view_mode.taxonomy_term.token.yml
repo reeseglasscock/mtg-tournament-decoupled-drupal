@@ -1,0 +1,14 @@
+uuid: 2e499a18-13dc-4420-940b-f6e9ad4f5cdb
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+    - taxonomy
+third_party_settings:
+  lightning_core:
+    internal: true
+id: taxonomy_term.token
+label: Token
+targetEntityType: taxonomy_term
+cache: true
