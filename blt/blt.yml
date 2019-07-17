@@ -33,9 +33,9 @@ modules:
     uninstall: [dblog]
   test:
     enable: [acquia_connector, shield]
-    uninstall: [devel, views_ui]
+    uninstall: [devel, views_ui, dblog]
   prod:
     enable: [acquia_connector, shield]
-    uninstall: [devel, views_ui]
+    uninstall: [devel, views_ui, dblog]
 cloud:
   appId: 84efb4e7-cee9-4b57-bf15-8c7d0cb4fce7
