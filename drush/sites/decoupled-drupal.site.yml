@@ -3,4 +3,4 @@ local:
     uri: local.decoupled-drupal.com
     host: local.decoupled-drupal.com
     user: vagrant
-    ssh: { options: '-o StrictHostKeyChecking=no -o PasswordAuthentication=no -i $HOME/.vagrant.d/insecure_private_key' }
+    ssh: { options: '-o StrictHostKeyChecking=no -o PasswordAuthentication=no -i ~/.ssh/id_rsa' }

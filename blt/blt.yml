@@ -12,6 +12,10 @@ git:
   default_branch: master
   remotes:
     cloud: 'eerglasscock@svn-29892.prod.hosting.acquia.com:eerglasscock.git'
+  hooks:
+    pre-commit: false
+    commit-msg: false
+    pattern: false
   email: 'reese.glasscock@acquia.com'
 deploy:
   tag_source: true
